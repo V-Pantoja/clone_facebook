@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Facebook</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;800&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="proj-4.css">
+</head>
+<body>
+
+   <header>
+      <h1>Fa..book</h1>
+
+      <div id="login">
+         <div class="divH">
+            <label for="emailUser">Email ou telefone</label><br/>
+            <input type="text" id="emailUser" name="emailUser" autofocus />
+         </div>
+         <div class="divH">
+            <label for="senhaUser">Senha</label><br/>
+            <input type="text" id="senhaUser" name="senhaUser" /><br/>
+            <a href="#">Esqueceu a conta?</a>
+         </div>
+         
+         <button>Entrar</button>
+      </div>
+   </header>
+
+   <main>
+      <div id="txtGrande">
+         <strong>
+            O Facebook ajuda você a se conectar e<br/>
+            compartilhar com as pessoas que fazem parte<br/>
+            da sua vida.
+         </strong>
+      </div>
+
+      <div id="container">
+         <h2>Abra uma conta</h2>
+         <h3>É gratuito e sempre será.</h3>
+
+         <form action="submit">
+            <div id="div1">
+               <input type="text" placeholder="Nome" />
+               <input type="text" placeholder="Sobrenome" />
+            </div>
+            <div id="div2">
+               <input type="text" placeholder="Celular ou email" />
+               <input type="text" placeholder="Nova senha" />
+            </div>
+         </form>
+
+         <h3>Data de nascimento</h3>
+
+         <div class="dNasc">
+            <select name="diaNasc" id="diaNasc"></select>
+            <select name="mesNasc" id="mesNasc"></select>
+            <select name="anoNasc" id="anoNasc"></select>
+
+            <a href="#">Por que preciso informar<br/>minha data de nascimento?</a>
+         </div>
+
+         <div id="genero">
+            <input type="radio" id="feminino" name="feminino" value="Feminino">
+            <label for="feminino">Feminino</label>
+      
+            <input type="radio" id="masculino" name="masculino" value="Masculino">
+            <label for="masculino">Masculino</label>
+         </div>
+
+         <p>
+            Ao clicar em inscreva-se, você concorda com nossos <a href="Termos">Termos</a>.<br/>
+            <a href="Politica">Politica de Dados</a> e <a href="Cookies">Politica de Cookies</a>. Você pode receber<br/>
+            notificações por SMS e pode cancelar isso quando quiser.
+         </p>
+
+         <button>Inscreva-se</button>
+
+         <p>
+            <a href="Criar-Pagina">Criar uma Página</a>
+            para uma celebridade, banda ou empresa.
+         </p>
+      </div>
+
+
+   </main>
+
+   <script src="proj4.js"></script>
+</body>
+</html>

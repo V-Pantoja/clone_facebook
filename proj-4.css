@@ -1,0 +1,190 @@
+:root {
+   font-size: 62.5%; /* padronizar: 1rem = 10px */
+}
+
+body {
+   background-image: linear-gradient(to top, rgba(158, 172, 248, 0.534) 10%, white 70%);
+
+   height: 100vh;
+   margin: 0;
+   padding: 0;
+
+   font-family: 'Nunito', sans-serif;
+   font-size: 1.6rem; /* 16px */
+
+   box-sizing: border-box;
+}
+
+body a {
+   text-decoration: none;
+}
+
+/* HEADER - - - - - - - - - - - - - - - - - - - */
+
+header {
+   background-color: rgb(34, 75, 163);
+   color: white;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header h1 {
+   margin: 3rem 4rem 1.5rem;
+}
+
+header #login {
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+header .divH {
+   margin-right: 1.5rem;
+   font-size: 1.2rem;
+}
+
+header .divH input {
+   width: 15rem;
+   margin: 0.5rem 0;
+   padding: 0.3rem;
+
+   border: none;
+   border-radius: 0.2rem;
+}
+
+header .divH a {
+   color: rgba(255, 255, 255, 0.432);
+}
+
+header #login button {
+   background-color: blue;
+   color: white;
+
+   margin: 2rem 2rem 0 0;
+   width: 6rem;
+   height: 2.1rem;
+
+   border: none;
+   border-radius: 0.2rem;
+
+   cursor: pointer;
+}
+
+/* MAIN - - - - - - - - - - - - - - - - - - - */
+
+main {
+   margin: 2.5rem 0 0;
+
+   display: flex;
+   justify-content: space-between;
+}
+
+#txtGrande {
+   color: rgb(9, 47, 97);
+   margin: 2rem 4rem 0;
+
+   font-size: 2.1rem;
+}
+
+main div#container {
+   width: 43rem;
+   margin-right: 2rem;
+}
+
+h2 {
+   margin: 0px 0px;
+   font-size: 3.5rem;
+}
+
+h3 {
+   margin: 1rem 0 0;
+   font-weight: 500;
+}
+
+#div1 {
+   margin-top: 2rem ;
+   display: flex;
+   justify-content: space-between;
+}
+
+#div1 input {
+   width: 19rem;
+   height: 2.5rem;
+   margin-bottom: 1rem;
+   padding: 6px;
+
+   font-size: 1.8rem;
+
+   border: 1px solid rgb(200, 200, 250);
+   border-radius: 3px;
+}
+
+#div2 {
+   display: flex;
+   flex-direction: column;
+}
+
+#div2 input {
+   width: auto;
+   height: 2.5rem;
+   margin-bottom: 1rem;
+   padding: 6px;
+
+   font-size: 1.8rem;
+
+   border: 1px solid rgb(200, 200, 250);
+   border-radius: 4px;
+}
+
+#container div.dNasc {
+   height: 4rem;
+
+   display: flex;
+   align-items: center;
+}
+
+select {
+   width: 7rem;
+   height: 2.8rem;
+
+   border: 1px solid rgb(200, 200, 250);
+   border-radius: 3px;
+}
+
+select#diaNasc {
+   width: 5.5rem;
+}
+
+#container div.dNasc a{
+   margin-left: 1.5rem;
+   font-size: 1.1rem;
+}
+
+#container #genero {
+   margin: 1rem 0 1.5rem;
+   font-size: 2rem;
+}
+
+#container p {
+   font-size: 1.1rem;
+}
+
+#container button {
+   width: 19rem;
+   height: 4rem;
+   margin: 1rem 0 2rem;
+
+   background-color: rgb(68, 180, 68);
+   color: white;
+   font-size: 1.8rem;
+
+   text-shadow: 1px 2px 1px black;
+   box-shadow: 1px 1px 1px black;
+
+   border: none;
+   border-radius: 5px;
+
+   cursor: pointer;
+}
