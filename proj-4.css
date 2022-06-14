@@ -2,17 +2,19 @@
    font-size: 62.5%; /* padronizar: 1rem = 10px */
 }
 
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
 body {
    background-image: linear-gradient(to top, rgba(158, 172, 248, 0.534) 10%, white 70%);
 
    height: 100vh;
-   margin: 0;
-   padding: 0;
 
    font-family: 'Nunito', sans-serif;
    font-size: 1.6rem; /* 16px */
-
-   box-sizing: border-box;
 }
 
 body a {
@@ -24,29 +26,31 @@ body a {
 header {
    background-color: rgb(34, 75, 163);
    color: white;
+   height: 9rem;
 
    display: flex;
    align-items: center;
    justify-content: space-between;
 }
 
-header h1 {
-   margin: 3rem 4rem 1.5rem;
+h1 {
+   margin: auto 4rem;
+   font-size: 4rem;
 }
 
-header #login {
+#login {
    display: flex;
    justify-content: center;
    flex-direction: row;
 }
 
-header .divH {
+.divH {
    margin-right: 1.5rem;
    font-size: 1.2rem;
 }
 
-header .divH input {
-   width: 15rem;
+.divH input {
+   width: 16rem;
    margin: 0.5rem 0;
    padding: 0.3rem;
 
@@ -54,22 +58,25 @@ header .divH input {
    border-radius: 0.2rem;
 }
 
-header .divH a {
+.divH a {
    color: rgba(255, 255, 255, 0.432);
 }
 
-header #login button {
-   background-color: blue;
+#login button {
+   background-color: rgb(7, 44, 253);
    color: white;
 
    margin: 2rem 2rem 0 0;
    width: 6rem;
-   height: 2.1rem;
+   height: 2.3rem;
 
    border: none;
    border-radius: 0.2rem;
 
    cursor: pointer;
+}
+#login button:hover {
+   background-color: rgb(31, 64, 247);
 }
 
 /* MAIN - - - - - - - - - - - - - - - - - - - */
@@ -110,10 +117,10 @@ h3 {
 }
 
 #div1 input {
-   width: 19rem;
+   width: 21rem;
    height: 2.5rem;
    margin-bottom: 1rem;
-   padding: 6px;
+   padding: 16px 6px;
 
    font-size: 1.8rem;
 
@@ -130,7 +137,7 @@ h3 {
    width: auto;
    height: 2.5rem;
    margin-bottom: 1rem;
-   padding: 6px;
+   padding: 16px 6px;
 
    font-size: 1.8rem;
 
@@ -157,7 +164,7 @@ select#diaNasc {
    width: 5.5rem;
 }
 
-#container div.dNasc a{
+#container div.dNasc a {
    margin-left: 1.5rem;
    font-size: 1.1rem;
 }
@@ -187,4 +194,7 @@ select#diaNasc {
    border-radius: 5px;
 
    cursor: pointer;
+}
+#container button:hover {
+   background-color: rgb(91, 212, 91);
 }
